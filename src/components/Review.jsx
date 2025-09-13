@@ -13,13 +13,17 @@ const Review = () => {
             <p>their impression after using the application</p>
         </div> 
 
-        <div className='review-text'>
-             <img src={Group} className='reviewer-img'/> 
-            <p>'HealthyCarely is a website and  mobile app for you
+        <div className='review-content'>
+             <img src={Group} width={100} className='reviewer-img' /> 
+            <p id='review-p'>'HealthyCarely is a website and  mobile app for you
                 to feel better  or get medical help .
                 We offer you a 24/7 doctor service
                 with no appointment needed'</p>
 
+        </div>
+        <div className='reviewer'>
+          <h1>Naufal Hidayat</h1>
+          <p>student at Telkom university</p>
         </div>
         
     </div>
