@@ -135,3 +135,33 @@ margin-left: 100px;
 
 }
 
+
+/* Rating */
+.box-rating{
+    display: flex;
+    align-items: center;
+    border-top: 2px solid rgb(43, 75, 232);
+    width: 25%;
+    height: 200px;
+    margin: 15px;
+    box-shadow: inset 0 0 10px #0000001a;
+}
+.box-rating .box-rating-sub{
+    display: block;
+}
+.box-rating .box-rating-top h2{
+    display: block;
+    text-align: center;
+}
+.All-box-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating h2{
+    text-align: center;
+}
+.rating .fpp{
+    color: blue;
+}
+

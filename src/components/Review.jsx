@@ -8,6 +8,51 @@ const Review = () => {
   return (
     <div className='review'>
 
+        <div className='rating'>
+          <p className='fpp'>Our Rating</p>
+          <h2>
+              We’re employee benefit at
+              7500+ hospital 
+          </h2>
+
+          <div className='All-box-rating'>
+              <div className='box-rating'>
+                <div className='box-rating-top'>
+                  <h2>
+                    900+
+                  </h2>
+                </div>
+              
+                <div className='box-rating-sub'>
+                  <p className='fp1'>Verified Specialist</p>
+                  <p className='fp2'>Highly Verified</p>
+                </div>
+                
+              </div>
+
+            <div className='box-rating'>
+                <h2>
+                  900+
+                </h2>
+
+                <p className='fp1'>Verified Specialist</p> <br /><br />
+                <p className='fp2'>Highly Verified</p>
+            </div>
+
+            <div className='box-rating'>
+                <h2>
+                  900+
+                </h2>
+
+                <p className='fp1'>Verified Specialist</p> <br /><br />
+                <p className='fp2'>Highly Verified</p>
+            </div>
+          </div>
+
+         
+          
+        </div>
+
         <div className='review-heading'>
             <h1>Our patients feedback about us</h1>
             <p>their impression after using the application</p>
