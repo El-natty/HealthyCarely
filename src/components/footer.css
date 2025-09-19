@@ -16,6 +16,9 @@
     margin-top: 300px;
 
 }
+.footer-text span{
+    color: rgb(78, 133, 243);
+}
 .footer-text{
     max-width: 429px;
     height: 125;
@@ -29,7 +32,7 @@
     height: 33;
     angle: 0 deg;
     opacity: 1;
-    font-family: Manrope;
+    font: Manrope;
     font-weight: 700;
     font-style: Bold;
     font-size: 24px;
@@ -99,6 +102,9 @@ height: 80;
 gap: 10px;
 angle: 0 deg;
 opacity: 1;
+list-style: none;
+
+
 
 }
 .footer-company{
@@ -123,6 +129,16 @@ leading-trim: NONE;
 line-height: 28px;
 letter-spacing: 3%;
 color: #121212;
+
+}
+.footer-company ul{
+    width: 100px;
+height: 80;
+gap: 10px;
+angle: 0 deg;
+opacity: 1;
+list-style: none;
+
 
 }
 .footer-explore{
@@ -154,6 +170,7 @@ height: 80;
 gap: 10px;
 angle: 0 deg;
 opacity: 1;
+list-style: none;
 
 
 }
@@ -169,6 +186,7 @@ font-size: 14px;
 leading-trim: NONE;
 line-height: 20px;
 letter-spacing: 1.5%;
+
  
 }
 .footer-socials{
@@ -199,5 +217,6 @@ height: 24;
 gap: 10px;
 angle: 0 deg;
 opacity: 1;
+list-style: none;
 
 }

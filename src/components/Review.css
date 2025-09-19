@@ -4,7 +4,7 @@
 
 }
 .review{
-    width:;
+    width:100%;
     background-color: white;
     margin-bottom: 100px;
     
@@ -25,6 +25,7 @@
     left: 470px;
     angle: 0 deg;
     opacity: 1;
+    margin-top: 100px;
 
 
 }
@@ -36,7 +37,7 @@
     left: 576px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Manrope;
+    font-family: ;
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -45,6 +46,7 @@
     letter-spacing: 1.5%;
     text-align: center;
     color: #696969;
+    padding-top: 10px;
 
 
 }
@@ -55,7 +57,7 @@
 }
 .review-content{
     
-    width: 1300px;
+    width: 92%;
     height: 350px;
     display: flex;
     background-color:#edf1ff;
@@ -65,26 +67,22 @@
 
 }
 .review-content p{
-    width: 533px;
-height: 160px;
-top: 3344px;
-left: 728px;
-angle: 0 deg;
-opacity: 1;
-font-family: Manrope;
 font-weight: 400;
 font-style: Regular;
 font-size: 25px;
 leading-trim: NONE;
 line-height: 40px;
 letter-spacing: 3%;
+width: 533;
+height: 160;
+top: 3344px;
+left: 728px;
+angle: 0 deg;
+opacity: 1;
+padding-top: 90px;
+padding-left: 70px;
 color: #121212;
-margin-left: 100px;
-    margin-top: 90px;
-
-    
-    
-
+padding-left: 200px;
 }
 
 .review-content .reviewer-img{
@@ -92,9 +90,6 @@ margin-left: 100px;
     padding-top: 70px;
     width: 433px;
     height: 372px;
-    
-}
-.reviewer{
     
 }
 .reviewer h1{
@@ -111,7 +106,7 @@ margin-left: 100px;
     leading-trim: NONE;
     line-height: 20px;
     letter-spacing: 3%;
-    margin-left: px;
+    padding-left: 250px;
     padding-bottom: 10px;
     margin-top: 30px;
 
@@ -130,7 +125,7 @@ margin-left: 100px;
     leading-trim: NONE;
     line-height: 14px;
     letter-spacing: 3%;
-    margin-left: 30px;
+    padding-left: 270px;
     
 
 }
