@@ -80,6 +80,7 @@ angle: 0 deg;
 opacity: 1;
 margin-bottom: 20px;
 
+
 }
 .footer-overview h1{
     width: 95px;
@@ -103,6 +104,8 @@ gap: 10px;
 angle: 0 deg;
 opacity: 1;
 list-style: none;
+text-align: left;
+
 
 
 

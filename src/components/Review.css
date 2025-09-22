@@ -53,6 +53,7 @@
 .review-heading{
     background-color: white;
     padding: 20px;
+    margin-bottom: 40px;
 
 }
 .review-content{
@@ -83,6 +84,7 @@ padding-top: 90px;
 padding-left: 70px;
 color: #121212;
 padding-left: 200px;
+text-align: left;
 }
 
 .review-content .reviewer-img{
@@ -91,6 +93,9 @@ padding-left: 200px;
     width: 433px;
     height: 372px;
     
+}
+.reviewer{
+    text-align: left;
 }
 .reviewer h1{
     width: 149;
@@ -106,9 +111,10 @@ padding-left: 200px;
     leading-trim: NONE;
     line-height: 20px;
     letter-spacing: 3%;
-    padding-left: 250px;
+    padding-left: 210px;
     padding-bottom: 10px;
     margin-top: 30px;
+    
 
 }
 .reviewer p{
@@ -125,7 +131,7 @@ padding-left: 200px;
     leading-trim: NONE;
     line-height: 14px;
     letter-spacing: 3%;
-    padding-left: 270px;
+    padding-left: 250px;
     
 
 }
@@ -133,30 +139,217 @@ padding-left: 200px;
 
 /* Rating */
 .box-rating{
-    display: flex;
+    display: block;
     align-items: center;
-    border-top: 2px solid rgb(43, 75, 232);
-    width: 25%;
-    height: 200px;
+    border-top: 3px solid #4D77FF;
+    width: 20%;
+    height: 193px;
     margin: 15px;
     box-shadow: inset 0 0 10px #0000001a;
+
 }
-.box-rating .box-rating-sub{
+
+.box-rating h2{
+    width: 84;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 40px;
+letter-spacing: 3%;
+text-align: center;
+padding-top: 30px;
+}
+.box-rating .fp1{
+    width: 131;
+height: 28;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 3%;
+color: #121212;
+padding-bottom:0.5px ;
+
+}
+.box-rating .fp2{
+    width: 84;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 5px;
+letter-spacing: 3%;
+text-align: center;
+color: #696969;
+
+}
+
+.box-rating2{
     display: block;
+    align-items: center;
+    border-top: 3px solid #4D77FF;
+    width: 20%;
+    height: 193px;
+    margin: 15px;
+    box-shadow: inset 0 0 10px #0000001a;
+
 }
-.box-rating .box-rating-top h2{
+.box-rating2 h2{
+    width: 84;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 40px;
+letter-spacing: 3%;
+text-align: center;
+padding-top: 30px;
+}
+.box-rating2 .fp1{
+    width: 131;
+height: 28;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 3%;
+color: #121212;
+padding-bottom:0.5px ;
+
+}
+.box-rating2 .fp2{
+    width: 84;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 5px;
+letter-spacing: 3%;
+text-align: center;
+color: #696969;
+
+}
+.box-rating3{
     display: block;
-    text-align: center;
+    align-items: center;
+    border-top: 3px solid #4D77FF;
+    width: 20%;
+    height: 193px;
+    margin: 15px;
+    box-shadow: inset 0 0 10px #0000001a;
+
 }
-.All-box-rating{
+.box-rating3 h2{
+    width: 84;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 40px;
+letter-spacing: 3%;
+text-align: center;
+padding-top: 30px;
+}
+.box-rating3 .fp1{
+    width: 131;
+height: 28;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 3%;
+color: #121212;
+padding-top: 10px;
+
+}
+.box-rating3 .fp2{
+    width: 84;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 5px;
+letter-spacing: 3%;
+text-align: center;
+color: #696969;
+
+}
+
+ .All-box-rating{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    margin-top: 20px;
+} 
 .rating h2{
     text-align: center;
+    width: 417;
+height: 80;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 40px;
+letter-spacing: 1.5%;
+text-align: center;
+
 }
 .rating .fpp{
-    color: blue;
+    color:#4D77FF;
+    width: 77;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Manrope;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 3%;
+
+}
+.review{
+    margin-bottom: 40px;
 }
 

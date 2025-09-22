@@ -11,47 +11,46 @@ const Review = () => {
         <div className='rating'>
           <p className='fpp'>Our Rating</p>
           <h2>
-              We’re employee benefit at
+              We’re employee benefit at <br></br>
               7500+ hospital 
           </h2>
+        </div>
 
           <div className='All-box-rating'>
+            
               <div className='box-rating'>
-                <div className='box-rating-top'>
                   <h2>
                     900+
                   </h2>
-                </div>
-              
-                <div className='box-rating-sub'>
                   <p className='fp1'>Verified Specialist</p>
                   <p className='fp2'>Highly Verified</p>
-                </div>
                 
               </div>
 
-            <div className='box-rating'>
+            <div className='box-rating2'>
                 <h2>
-                  900+
+                  45000+
                 </h2>
 
-                <p className='fp1'>Verified Specialist</p> <br /><br />
-                <p className='fp2'>Highly Verified</p>
+                <p className='fp1'>Happy Customers</p> 
+                <p className='fp2'>High performance</p>
             </div>
 
-            <div className='box-rating'>
+            <div className='box-rating3'>
                 <h2>
-                  900+
+                  99.7%
                 </h2>
 
-                <p className='fp1'>Verified Specialist</p> <br /><br />
-                <p className='fp2'>Highly Verified</p>
+                <p className='fp1'>positive Feedback</p> 
+                <p className='fp2'>Customers Approve</p>
             </div>
           </div>
 
          
           
-        </div>
+        
+
+        {/* review heading */}
 
         <div className='review-heading'>
             <h1>Our patients feedback about us</h1>
