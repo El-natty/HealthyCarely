@@ -24,7 +24,7 @@ opacity: 1;
 height: 80;
 angle: 0 deg;
 opacity: 1;
-font-family: Manrope;
+font-family: sans-serif;
 font-weight: 700;
 font-style: Bold;
 leading-trim: NONE;
@@ -53,6 +53,31 @@ padding-right: 450px;
 height: 20;
 angle: 0 deg;
 opacity: 1;
-gap: 40px;
-line
+gap: 20px;
+
+}
+.nav1 a{
+    text-decoration: none;
+    color:black;
+    font-family:sans-serif;
+}
+.nav2 a{
+    text-decoration: none;
+    color:black;
+    font-family:sans-serif;
+}
+.nav2 #btn{
+    color: white;
+    background-color: #4D77FF;
+    width: 97;
+height: 44;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+border-radius: 10px;
+padding-top: 12px;
+padding-right: 12px;
+padding-bottom: 12px;
+padding-left: 12px;
+
 }

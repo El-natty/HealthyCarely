@@ -21,7 +21,7 @@ const Navbar = () => {
         <nav className='nav2'>
           <ul>
             <li><a href=''>Sign In</a></li>
-            <li><a href=''>Sign Up</a></li>
+            <li><a href='' id='btn'>Sign Up</a></li>
           </ul>
 
         </nav>
