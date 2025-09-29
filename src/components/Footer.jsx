@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer-text'>
-        <h1>HealthyCarely</h1>
+        <h1>Healthy<span>Carely</span></h1>
         <p>This free App provides a solution to your health needs by offering
             you a one-stop access to complete information about various
             medical checkups. This App carries simple tips and advice to
