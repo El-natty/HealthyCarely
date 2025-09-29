@@ -90,8 +90,9 @@ text-align: left;
 .review-content .reviewer-img{
     padding-left: 70px;
     padding-top: 70px;
-    width: 433px;
-    height: 372px;
+    width: 470px;
+    height: 450px;
+    position:;
     
 }
 .reviewer{
@@ -111,8 +112,8 @@ text-align: left;
     leading-trim: NONE;
     line-height: 20px;
     letter-spacing: 3%;
-    padding-left: 210px;
-    padding-bottom: 10px;
+    padding-left:120px;
+    padding-bottom: 0.1em;
     margin-top: 30px;
     
 
@@ -131,7 +132,7 @@ text-align: left;
     leading-trim: NONE;
     line-height: 14px;
     letter-spacing: 3%;
-    padding-left: 250px;
+    padding-left: 160px;
     
 
 }

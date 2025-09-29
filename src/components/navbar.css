@@ -43,6 +43,7 @@ opacity: 1;
 gap: 40px;
 color: black;
 padding-right: 450px;
+padding-top: 15px;
 
 }
 .nav2 ul{
@@ -54,6 +55,7 @@ height: 20;
 angle: 0 deg;
 opacity: 1;
 gap: 20px;
+padding-top: 15px;
 
 }
 .nav1 a{
