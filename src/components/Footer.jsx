@@ -4,7 +4,7 @@ import frame26 from '../assets/Frame 26.png'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer' >
       <div className='footer-text'>
         <h1>Healthy<span>Carely</span></h1>
         <p>This free App provides a solution to your health needs by offering

@@ -23,10 +23,10 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <nav className={`nav1 ${menuOpen ? "active" : ""}`}>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Doctor</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Review</a></li>
+            <li><a href="" id="home">Home</a></li>
+            <li><a href="" id="doctor">Doctor</a></li>
+            <li><a href="" id="doctor">Service</a></li>
+            <li><a href="" id="review">Review</a></li>
           </ul>
         </nav>
 

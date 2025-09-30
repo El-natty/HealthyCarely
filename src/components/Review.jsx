@@ -6,7 +6,7 @@ import './review.css'
 
 const Review = () => {
   return (
-    <div className='review'>
+    <div className='review' id='review'>
 
         <div className='rating'>
           <p className='fpp'>Our Rating</p>
