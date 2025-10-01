@@ -93,7 +93,7 @@ text-align: left;
     padding-top: 70px;
     width: 470px;
     height: 450px;
-    position:;
+    
     
 }
 .reviewer{
@@ -114,7 +114,7 @@ text-align: left;
     line-height: 20px;
     letter-spacing: 3%;
     padding-left:120px;
-    padding-bottom: 0.1em;
+    padding-top: 0.1em;
     margin-top: 30px;
     
 
@@ -131,11 +131,16 @@ text-align: left;
     font-style: Bold;
     font-size: 14px;
     leading-trim: NONE;
-    line-height: 14px;
+    line-height: 0.5em;
     letter-spacing: 3%;
     padding-left: 160px;
     
 
+}
+.reviewer #img{
+    
+    display: flex;
+    float: right;
 }
 
 
@@ -148,6 +153,12 @@ text-align: left;
     height: 193px;
     margin: 15px;
     box-shadow: inset 0 0 10px #0000001a;
+    opacity: 0.5;
+
+}
+.box-rating:hover{
+    opacity: 1;
+    transition: 2s;
 
 }
 
@@ -165,6 +176,7 @@ line-height: 40px;
 letter-spacing: 3%;
 text-align: center;
 padding-top: 30px;
+
 }
 .box-rating .fp1{
     width: 131;
@@ -207,6 +219,12 @@ color: #696969;
     height: 193px;
     margin: 15px;
     box-shadow: inset 0 0 10px #0000001a;
+    opacity: 0.5;
+
+}
+.box-rating2:hover{
+    opacity: 1;
+    transition: 2s;
 
 }
 .box-rating2 h2{
@@ -264,6 +282,12 @@ color: #696969;
     height: 193px;
     margin: 15px;
     box-shadow: inset 0 0 10px #0000001a;
+    opacity: 0.5;
+
+}
+.box-rating3:hover{
+    opacity: 1;
+    transition: 2s;
 
 }
 .box-rating3 h2{

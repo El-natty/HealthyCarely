@@ -25,9 +25,9 @@ const Footer = () => {
         <div className='footer-company'>
           <h1>Company</h1>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
+            <li id='home'><a href='home'>Home</a></li>
+            <li id='about'><a href='about'>About</a></li>
+            <li id='service'><a href='service'>Services</a></li>
           </ul>
           </div>
           <div className='footer-explore'>
