@@ -69,8 +69,8 @@ const Review = () => {
         <div className='reviewer'>
           <h1>Naufal Hidayat</h1>
           <p>student at Telkom university</p>
-          <img src="<i class='bxr  bx-arrow-right'  ></i> " id='img' />
-          <img src="<i class='bxr  bx-arrow-left-stroke'  ></i> " id='img'/>
+          {/* <img src="<i class='bxr  bx-arrow-right'  ></i> " id='img' />
+          <img src="<i class='bxr  bx-arrow-left-stroke'  ></i> " id='img'/> */}
         </div>
         
     </div>

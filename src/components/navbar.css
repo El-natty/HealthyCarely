@@ -33,11 +33,11 @@
   gap: 70px;
   padding-top: 16px;
   padding-right: 400px;
-  color: #4D77FF;
+  color:black;
 }
 .nav1 ul a:hover{
   color: #ddd;
-  background-color: #375fd9;
+  background-color: black;
   border-radius: 8px;
   padding: 10px 20px;
   transition: 1s;
@@ -56,7 +56,7 @@
   text-decoration: none;
   font-family: sans-serif;
   font-size: 16px;
-  color:#375fd9;
+  color:black;
   background: none;
   border: none;
   cursor: pointer;
@@ -65,16 +65,17 @@
   text-decoration: none;
   font-family: sans-serif;
   font-size: 16px;
-  color: white;
-  background-color: #94fa8b;
+  color: black;
+  background-color: ;
   border: none;
   cursor: pointer;
   padding: 10px 20px;
   border-radius: 8px;
 }
 .link-btn:hover{
-  transition: 0.2s;
-  background-color: #16771e;
+  transition: 1s;
+  background-color: black;
+  color: white;
 }
 
 #btn {
