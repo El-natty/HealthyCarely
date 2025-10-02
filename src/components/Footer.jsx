@@ -43,7 +43,8 @@ const Footer = () => {
             <h1>Social Media</h1>
             <ul>
               <li>
-                <img src={frame26} alt="Social Media Icon" />
+                <img  src={frame26} alt="Social Media Icon" />
+                
               </li>
             </ul>
           </div>
