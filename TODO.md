@@ -1,2 +1,2 @@
-- [ ] Update Review.jsx to use react-icons for Boxicons
-- [ ] Remove Boxicons CDN link from index.html
+- [x] Fix ellipse image display in Home.jsx by changing src from "Ellipse" to {Ellipse} and add alt attribute
+- [ ] Test the app to verify the ellipse image is now displaying correctly

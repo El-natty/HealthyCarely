@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import img1 from '../assets/female doctor_fococlipping_removed 1 (1).png'
-import img2 from '../assets/Ellipse 1.png'
+import Ellipse from '../assets/Ellipse 1.png'
 import img3 from '../assets/Group 1.png'
 
 const Home = () => {
@@ -24,12 +24,21 @@ const Home = () => {
       </div>
 
       <div className="hero-image">
-        <img
+        <img 
+        src={Ellipse} 
+        alt="Ellipse background"
+        className='doc-background'
+         />
+        
+         <img
           src={img1}
           alt="Doctor"
           className="doctor-img"
         />
-        <div className="doctor-card">
+        
+
+        
+        {/* <div className="doctor-card">
           <img
             src={img3}
             alt="Dr Shimanta"
@@ -40,7 +49,7 @@ const Home = () => {
             <p>Skin Specialist</p>
             <button className="schedule-btn">Make Schedule</button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
 
