@@ -38,7 +38,7 @@ const Home = () => {
         
 
         
-        {/* <div className="doctor-card">
+        <div className="doctor-card">
           <img
             src={img3}
             alt="Dr Shimanta"
@@ -49,7 +49,7 @@ const Home = () => {
             <p>Skin Specialist</p>
             <button className="schedule-btn">Make Schedule</button>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
 
